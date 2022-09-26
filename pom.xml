@@ -21,6 +21,16 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
+   <distributionManagement>
+      <Repository>
+        <id>maven-repositary</id>
+        <url>http://3.109.211.236:8081/repository/maven-repositary/</url>
+      </Repository>
+      <snapshotRepository>
+        <id>nexus-snapshots</id>
+        <url>http://3.109.211.236:8081/nexus/content/repositories/snapshots</url>
+      </snapshotRepository>
+   </distributionManagement>
 
     <dependencies>
         <dependency>
