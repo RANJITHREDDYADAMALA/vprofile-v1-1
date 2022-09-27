@@ -24,11 +24,11 @@
    <distributionManagement>
       <repository>
         <id>maven-repositary</id>
-        <url>http://3.109.211.236:8081/repository/maven-repositary/</url>
+        <url>http://3.108.59.195:8081/repository/maven-repositary/</url>
       </repository>
       <snapshotRepository>
         <id>nexus-snapshots</id>
-        <url>http://3.109.211.236:8081/nexus/content/repositories/snapshots</url>
+        <url>http://3.108.59.195:8081/nexus/content/repositories/snapshots</url>
       </snapshotRepository>
    </distributionManagement>
 
@@ -175,7 +175,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
-<!--             <plugin>
+            <plugin>
 		<groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.1</version>
@@ -183,7 +183,7 @@
                        <source>1.8</source>
                        <target>1.8</target>
                     </configuration>
-            </plugin> -->
+            </plugin>
         </plugins>
     </build>
 </project>
